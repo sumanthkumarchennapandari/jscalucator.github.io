@@ -23,6 +23,7 @@ body
     width: fit-content;
     max-width: 51vh;
     border-radius: 20px;
+    margin-top: 5vh;
 }
 
 .display
@@ -82,6 +83,11 @@ body
 {
     background-color: #a5a5a5;
     color: #000000;
+}
+
+.heading_font
+{
+    color: white;
 }
 
 .top3:hover{
