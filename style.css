@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body
+{   align-self: start;
+    background-color: #dc965a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricont
+{
+    background-color: #000000;
+    height: 90vh;
+    width: fit-content;
+    max-width: 51vh;
+    border-radius: 20px;
+}
+
+.display
+{
+    background-color: #000000;
+    height: 25vmin;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    text-align: end;
+    font-size: 12vmin;
+    font-weight:lighter;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button
+{
+    width: 11vmin;
+    height: 11vmin;
+    border-radius: 50%;
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-size: 5vmin;
+}
+
+.button:hover
+{
+    background-color:rgb(91, 91, 91);
+}
+
+#btn0
+{
+    width: 23vmin;
+    border-radius: 25rem;
+    text-align: left;
+}
+
+.side5
+{
+    background-color: #fe9505;
+}
+
+.side5:hover
+{
+    background-color: #f9b453;
+}
+
+.top3
+{
+    background-color: #a5a5a5;
+    color: #000000;
+}
+
+.top3:hover{
+ background-color: rgb(129, 129, 129);
+}
+.btn0p
+{
+    margin-left: 25px;
+}
+
+.displayfont
+{
+    color: white;
+    padding-top: 11vmin;
+}
+
+/* .navbar
+{
+    align-self: baseline;
+    border: 10px solid;
+    background-color: white;
+} */
